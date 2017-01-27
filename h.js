@@ -136,18 +136,18 @@
   // ここの書き方は結構難しいので今は説明しません
   var descriptor = {
     blocks: [
-      [' ', 'Init', 'init', ''],
+      [' ', '接続', 'init', ''],
       [' ', 'Chat %s', 'chat',''],
-      [' ', 'Roll speed: %n  direction: %n ','roll',50,0],
-      ['h', '!collision', 'when_collision'],
+      [' ', '回転 速さ: %n  方向: %n ','roll',50,0],
+      ['h', '!衝突', 'when_collision'],
       ['', 'run alarm after %n seconds', 'set_alarm', '2'],
-      [' ', 'Stop', 'stop', ''],
-      [' ', 'Color %s', 'color',''],
+      [' ', '停止', 'stop', ''],
+      [' ', '色 %s', 'color',''],
       [' ', 'Boost', 'boost', ''],
       [' ', 'UnBoost', 'unBoost', ''],
       [' ', 'Toggle Boost', 'toggleBoost', ''],
-      [' ', 'Start Caliblation', 'startCalib', ''],
-      [' ', 'Finish Caliblation', 'finishCalib', '']
+      [' ', '調整開始', 'startCalib', ''],
+      [' ', '調整終了', 'finishCalib', '']
     ]
 
    };
